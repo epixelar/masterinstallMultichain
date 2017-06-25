@@ -1,5 +1,5 @@
     #Dev by Shamuel Perez to Multichain Users
-	sed -i 's/\r$//' masterInstall.sh
+    sed -i 's/\r$//' masterInstall.sh
     echo "Downloading dependencies...";
     sudo apt-get update
     sudo apt-get --yes --force-yes install software-properties-common python-software-properties
@@ -24,7 +24,7 @@
     cp src/multichain-cli /usr/local/bin;
     cp src/multichain-util /usr/local/bin;
     echo "End :)";
-	#Dev by Shamuel Perez to Multichain Users
+    #Dev by Shamuel Perez to Multichain Users
 
 
 
