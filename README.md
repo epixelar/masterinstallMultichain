@@ -1,4 +1,4 @@
-# MasterInstall for MultiChain
+# MasterInstall for MultiChain Beta 1.0
 Dev by Shamuel Perez for MultiChain
 
 Step 1: Download MultiChain in your server<br>
