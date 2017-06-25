@@ -1,4 +1,5 @@
     sed -i 's/\r$//' masterInstall.sh
+    chmod -R 777 ../multichain
     sudo apt-get update
     echo "Downloading dependencies...";
     sudo apt-get --yes --force-yes install software-properties-common python-software-properties
