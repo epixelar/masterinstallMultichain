@@ -1,4 +1,3 @@
-    #Dev by Shamuel Perez to Multichain Users
     sed -i 's/\r$//' masterInstall.sh
     sudo apt-get update
     echo "Downloading dependencies...";
@@ -24,7 +23,7 @@
     cp src/multichain-cli /usr/local/bin;
     cp src/multichain-util /usr/local/bin;
     echo "End :)";
-    #Dev by Shamuel Perez to Multichain Users
+    #Dev by Shamuel Perez for Multichain Users
 
 
 
