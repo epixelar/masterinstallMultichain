@@ -16,7 +16,6 @@
     echo "Dependencies installed successfully...";
     mv masterinstallMultichain/masterInstall.sh multichain/masterInstall.sh
     chmod -R 777 multichain
-    rm -f masterinstallMultichain
     cd multichain
     echo "Compilation start";
     ./autogen.sh
