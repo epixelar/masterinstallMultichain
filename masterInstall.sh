@@ -14,7 +14,6 @@
     sudo apt-get update
     sudo apt-get --yes --force-yes install libdb4.8-dev libdb4.8++-dev
     echo "Dependencies installed successfully...";
-    mv masterinstallMultichain/masterInstall.sh multichain/masterInstall.sh
     chmod -R 777 multichain
     cd multichain
     echo "Compilation start";
