@@ -26,5 +26,5 @@
     sudo cp src/multichaind /usr/local/bin;
     sudo cp src/multichain-cli /usr/local/bin;
     sudo cp src/multichain-util /usr/local/bin;
-    echo "End :)";
+    echo "End! Maybe you want to start with multichain-util create chain :)";
     #Dev by Shamuel Perez to Multichain Users
