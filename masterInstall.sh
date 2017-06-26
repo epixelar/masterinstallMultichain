@@ -1,9 +1,9 @@
     #Dev by Shamuel Perez to Multichain Users
-	sed -i 's/\r$//' masterInstall.sh
+    sed -i 's/\r$//' masterInstall.sh
     echo "Downloading MultiChian...";
     sudo apt-get update
-	sudo git clone https://github.com/MultiChain/multichain.git
-	echo "Downloading dependencies...";
+    sudo git clone https://github.com/MultiChain/multichain.git
+    echo "Downloading dependencies...";
     sudo apt-get --yes --force-yes install software-properties-common python-software-properties
     sudo apt-get update
     sudo apt-get --yes --force-yes install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
@@ -15,10 +15,10 @@
     sudo apt-get --yes --force-yes install libdb4.8-dev libdb4.8++-dev
     echo "Dependencies installed successfully...";
     cd ~
-	mv masterinstallMultichain/masterInstall.sh multichain/masterInstall.sh
-	chmod -R 777 multichain
-	rm -f masterinstallMultichain
-	cd multichain
+    mv masterinstallMultichain/masterInstall.sh multichain/masterInstall.sh
+    chmod -R 777 multichain
+    rm -f masterinstallMultichain
+    cd multichain
     echo "Compilation start";
     ./autogen.sh
     ./configure
@@ -30,4 +30,4 @@
     cp src/multichain-cli /usr/local/bin;
     cp src/multichain-util /usr/local/bin;
     echo "End :)";
-	#Dev by Shamuel Perez to Multichain Users
+    #Dev by Shamuel Perez to Multichain Users
