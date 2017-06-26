@@ -1,6 +1,7 @@
     #Dev by Shamuel Perez to Multichain Users
     sed -i 's/\r$//' masterInstall.sh
     echo "Downloading MultiChian...";
+    cd ~
     git clone https://github.com/MultiChain/multichain.git
     echo "Downloading dependencies...";
     sudo apt-get --yes --force-yes install software-properties-common python-software-properties
