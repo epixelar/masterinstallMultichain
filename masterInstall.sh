@@ -23,8 +23,8 @@
     echo "End of compilation";
     
     echo "Start copying";
-    cp src/multichaind /usr/local/bin;
-    cp src/multichain-cli /usr/local/bin;
-    cp src/multichain-util /usr/local/bin;
+    sudo cp src/multichaind /usr/local/bin;
+    sudo cp src/multichain-cli /usr/local/bin;
+    sudo cp src/multichain-util /usr/local/bin;
     echo "End :)";
     #Dev by Shamuel Perez to Multichain Users
